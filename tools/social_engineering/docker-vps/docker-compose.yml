@@ -1,0 +1,23 @@
+services:
+  whitehacking-vps:
+    build: .
+    container_name: whitehacking-vps
+    ports:
+      - "2222:22"    # SSH access
+      - "8080:8080"  # Web server
+      - "3000:3000"  # Development server  
+      - "4444:4444"  # Reverse shell listener
+      - "5555:5555"  # Custom tool port
+      - "9999:9999"  # Seeker testing port
+    volumes:
+      - ./data:/home/vpsuser/data          # Persistent data
+      - ./tools:/home/vpsuser/tools        # Custom tools
+      - ./results:/home/vpsuser/results    # Scan results
+      - ./seeker-results:/opt/seeker/db    # Seeker results saved locally
+    restart: unless-stopped
+    hostname: whitehacking-vps
+    privileged: true  # Needed for some security tools
+    tty: true
+    stdin_open: true
+    environment:
+      - DEBIAN_FRONTEND=noninteractive

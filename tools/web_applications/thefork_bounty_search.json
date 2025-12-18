@@ -1,0 +1,30 @@
+{
+  "company": "TheFork",
+  "domain": "thefork.com",
+  "timestamp": "2025-10-15T23:57:03.174276",
+  "results": [
+    {
+      "platform": "HackerOne",
+      "found": false,
+      "error": "Could not check"
+    },
+    {
+      "platform": "Bugcrowd",
+      "found": false,
+      "error": "Could not check"
+    },
+    {
+      "platform": "Intigriti",
+      "found": false,
+      "error": "Could not check"
+    },
+    {
+      "platform": "Company Direct",
+      "found": false
+    }
+  ],
+  "summary": {
+    "total_platforms_checked": 4,
+    "programs_found": 0
+  }
+}

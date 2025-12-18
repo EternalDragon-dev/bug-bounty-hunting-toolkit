@@ -1,0 +1,129 @@
+{
+  "target": "https://api.thefork.com/graphql",
+  "timestamp": "2025-10-15T23:33:13.852716",
+  "results": [
+    {
+      "technique": "Basic Rotation",
+      "success": false,
+      "status_code": 403,
+      "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "433",
+        "Content-Type": "application/json;charset=utf-8",
+        "X-DataDome": "protected",
+        "Accept-CH": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+        "Charset": "utf-8",
+        "Cache-Control": "max-age=0, private, no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "X-DataDome-CID": "AHrlqAAAAAMAYOdjT2d0EDgAadHmHQ==",
+        "X-DD-B": "2",
+        "Set-Cookie": "datadome=CY5fS0mynXcqrbN4S7GoeU3rcDP_zz_Lh0XG4ti174y5vHiQwizqFDECEgEiBtjUAMcopiYaM4IfigrbH6EPyouMDQMtYL9XfAm7BwXDElqllFQdEo_G7JcqbS0EqnPP; Max-Age=31536000; Domain=.thefork.com; Path=/; Secure; SameSite=Lax",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 15 Oct 2025 21:32:34 GMT",
+        "X-Cache": "MISS",
+        "X-Timer": "S1760563954.232633,VS0,VE32",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "content_length": 433,
+      "response_time": 0.101709
+    },
+    {
+      "technique": "Cookie Manipulation",
+      "success": false,
+      "status_code": 403,
+      "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "433",
+        "Content-Type": "application/json;charset=utf-8",
+        "X-DataDome": "protected",
+        "Accept-CH": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+        "Charset": "utf-8",
+        "Cache-Control": "max-age=0, private, no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "X-DataDome-CID": "AHrlqAAAAAMApPrCyAO_IEQAadHmHQ==",
+        "X-DD-B": "2",
+        "Set-Cookie": "datadome=0qirV1O~RTvaGoWsoxreGfQY_CxUAbOC5skeWwK4w8hAtCwGRQnB0vD4YWO0WTYom0d3WFwYil27esSvrlldXjndJtVfUV72M~bRohc_f47A97B7lgmNmTVFzImWoQCJ; Max-Age=31536000; Domain=.thefork.com; Path=/; Secure; SameSite=Lax",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 15 Oct 2025 21:32:38 GMT",
+        "X-Cache": "MISS",
+        "X-Timer": "S1760563959.844315,VS0,VE25",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "content_length": 433,
+      "response_time": 0.040962
+    },
+    {
+      "technique": "JS Fingerprint Evasion",
+      "success": false,
+      "status_code": 403,
+      "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "433",
+        "Content-Type": "application/json;charset=utf-8",
+        "X-DataDome": "protected",
+        "Accept-CH": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+        "Charset": "utf-8",
+        "Cache-Control": "max-age=0, private, no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "X-DataDome-CID": "AHrlqAAAAAMApPrCyAO_IEQAadHmHQ==",
+        "X-DD-B": "2",
+        "Set-Cookie": "datadome=dUgTWaGqqIkzTKHYee3ym7hV6PmGSepGmJrePSbWE_LZ7cUKrtpRPbs6CSrxQvMYvJIkAhlTbeA3xYqbZKoeCFjJbww41Ze8iLBVasbMgXvbWaJLkHOj3zrl4oPd2xnV; Max-Age=31536000; Domain=.thefork.com; Path=/; Secure; SameSite=Lax",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 15 Oct 2025 21:32:44 GMT",
+        "X-Cache": "MISS",
+        "X-Timer": "S1760563964.997849,VS0,VE33",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "content_length": 433,
+      "response_time": 0.054302
+    },
+    {
+      "success": false,
+      "error": "Homepage blocked"
+    },
+    {
+      "technique": "technique_4_legitimate_workflow_simulation",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "technique": "HTTP/1.1 Downgrade",
+      "success": false,
+      "status_code": 403,
+      "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "433",
+        "Content-Type": "application/json;charset=utf-8",
+        "X-DataDome": "protected",
+        "Accept-CH": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+        "Charset": "utf-8",
+        "Cache-Control": "max-age=0, private, no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "X-DataDome-CID": "AHrlqAAAAAMApPrCyAO_IEQAadHmHQ==",
+        "X-DD-B": "2",
+        "Set-Cookie": "datadome=pt_E1O07pT6lscwS0pmCDt7jD3ocjJ9pbU0ctPwtpfWMtG3vecb90O2zehj_mn6kfcJEQa39bM_Ei5dETfVjlv0mCGl3KsAcC3~60c4OCURJJk7oAEmYRUxr_7vVGHit; Max-Age=31536000; Domain=.thefork.com; Path=/; Secure; SameSite=Lax",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 15 Oct 2025 21:32:54 GMT",
+        "X-Cache": "MISS",
+        "X-Timer": "S1760563974.412788,VS0,VE32",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "content_length": 433,
+      "response_time": 0.093684
+    },
+    {
+      "success": false,
+      "error": "All 3 attempts failed"
+    },
+    {
+      "technique": "technique_6_request_spacing",
+      "success": false,
+      "error": "'technique'"
+    }
+  ],
+  "successful_techniques": 0
+}

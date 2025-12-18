@@ -1,0 +1,62 @@
+{
+  "target": "https://api.thefork.com/graphql",
+  "timestamp": "2025-10-15T23:36:43.287114",
+  "results": [
+    {
+      "success": false,
+      "error": "Main site blocked: 403"
+    },
+    {
+      "technique": "technique_advanced_session_building",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "success": false,
+      "error": "All CDN endpoints blocked"
+    },
+    {
+      "technique": "technique_cdn_endpoint_rotation",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "success": false,
+      "error": "module 'hashlib' has no attribute 'uuid4'"
+    },
+    {
+      "technique": "technique_mobile_app_simulation",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "success": false,
+      "error": "All geographic simulations blocked"
+    },
+    {
+      "technique": "technique_geographic_ip_simulation",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "success": false,
+      "error": "All API key simulations blocked"
+    },
+    {
+      "technique": "technique_api_key_simulation",
+      "success": false,
+      "error": "'technique'"
+    },
+    {
+      "success": false,
+      "error": "Invalid header name b':method'"
+    },
+    {
+      "technique": "technique_http2_with_specific_ciphers",
+      "success": false,
+      "error": "'technique'"
+    }
+  ],
+  "successful_techniques": 0,
+  "working_technique": null
+}
