@@ -8,6 +8,34 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-Research%20Only-red)](LICENSE)
 
+[**📸 Screenshots Coming Soon**]
+
+---
+
+## ⚠️ ETHICAL USE DISCLAIMER
+
+**THIS TOOLKIT IS FOR AUTHORIZED SECURITY TESTING ONLY**
+
+✅ **Acceptable Use:**
+- Authorized bug bounty programs (HackerOne, Bugcrowd, etc.)
+- Penetration testing with written permission
+- Security research on your own systems
+- Educational purposes in controlled environments
+
+❌ **Prohibited Use:**
+- Unauthorized access to systems or data
+- Testing without explicit permission
+- Any illegal or malicious activity
+- Violating terms of service or laws
+
+**🚨 WARNING:** Misuse of these tools may result in:
+- Criminal prosecution
+- Civil liability
+- Account bans from bug bounty platforms
+- Legal action from affected organizations
+
+**By using this toolkit, you agree to use it responsibly and legally. The author is not responsible for any misuse or damage caused by this toolkit.**
+
 ---
 
 ## ⚡ **ADVANCED SECURITY TESTING FRAMEWORK**
@@ -24,15 +52,37 @@
 
 ---
 
-## 🏆 **Latest Results**
+## 🏆 **Results & Success Stories**
+
+### Active Submissions
 
 ✅ **HackerOne Report #3361395** - Kolesa Group session vulnerabilities (PENDING)  
 🎯 **Target:** krisha.kz (Kazakhstan's leading real estate platform)  
 💰 **Estimated Bounty:** $300-600  
-📊 **Acceptance Probability:** 92%
+📊 **Acceptance Probability:** 92%  
+🔍 **Vulnerabilities Found:** Session management issues, data exposure
 
-❌ **FAILED CAMPAIGN:** Deriv.com - **8 hours wasted, $0 return**  
-🚨 **Lesson:** Avoid mature financial platforms - over-secured, no ROI
+### Campaign Insights
+
+**✅ Successful Strategies:**
+- Comprehensive subdomain enumeration (222+ subdomains per target)
+- Automated data exposure detection
+- Bot protection bypass techniques
+- Focused targeting of regional platforms
+
+**❌ Lessons Learned:**
+- **Deriv.com Campaign:** 8 hours invested, $0 return
+  - **Lesson:** Avoid mature financial platforms - over-secured, low ROI
+  - Better to target emerging markets and regional platforms
+- Prioritize quality over quantity in target selection
+- Focus on programs with proven payout history
+
+### Toolkit Statistics
+
+- 📊 **222+ subdomains** discovered per campaign
+- ⚡ **25+ threads** for high-speed enumeration
+- 🎯 **1000+ API endpoints** tested per target
+- 🔍 **Advanced bot bypass** techniques implemented
 
 ---
 
