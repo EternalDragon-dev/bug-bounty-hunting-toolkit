@@ -117,4 +117,4 @@ To add more tools or modify the setup:
 
 ---
 
-**Location**: `/Users/stevensimelane/Documents/bug-bounty-hunting-toolkit/tools/docker-vps/`
+**Location**: `bug-bounty-hunting-toolkit/tools/docker-vps/`
