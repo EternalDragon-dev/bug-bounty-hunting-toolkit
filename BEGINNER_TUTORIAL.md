@@ -32,7 +32,7 @@ This isn't a learning platform. This is a **WEAPON FOR GETTING PAID BOUNTIES**.
 
 ```bash
 # Navigate to toolkit
-cd /Users/stevensimelane/Documents/bug-bounty-hunting-toolkit
+cd bug-bounty-hunting-toolkit
 
 # Make tools executable
 chmod +x exploitation/tools/*.py

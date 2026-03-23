@@ -74,7 +74,7 @@ class JustEatTakeawayConfig:
             "Business logic abuse"
         ]
         
-        self.output_dir = "/Users/stevensimelane/Documents/bug-bounty-hunting-toolkit/results/justeattakeaway"
+        self.output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results", "justeattakeaway")
         self.create_output_structure()
     
     def create_output_structure(self):
